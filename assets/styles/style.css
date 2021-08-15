@@ -1,0 +1,587 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+
+}
+
+.jumbotron img {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 760px;
+    top: 210px;
+}
+
+.nama {
+    position: absolute;
+    width: 700px;
+    height: 105px;
+    left: 148px;
+    top: 228px;
+    padding-top: 2px;
+
+    font-family: 'Heebo',
+        sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 60px;
+    /* or 136% */
+
+    /* Dark Color */
+
+    color: #21243D;
+
+}
+
+.nama h2 {
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
+
+/* .atas h2 {
+    position: absolute;
+    width: 506px;
+    height: 105px;
+    left: 148px;
+    top: 288px;
+
+    font-family: 'Heebo',
+        sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 60px;
+    /* or 136% */
+
+/* Dark Color */
+
+/* color: #21243D;
+
+} */
+
+.jumbotron p {
+    position: absolute;
+    width: 497px;
+    height: 66px;
+    left: 148px;
+    top: 400px;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    /* Dark Color */
+
+    color: #21243D;
+
+}
+
+.biodata {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 200px;
+    left: 0px;
+    top: 595px;
+    background: #EDF7FA;
+
+}
+
+.kontak {
+    flex-grow: 1;
+}
+
+.kontak h4 {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+
+    /* TITLE 2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* PRIMARY / GREEN */
+
+    color: #136223;
+
+}
+
+.no img {
+    position: absolute;
+    left: 10%;
+    top: 60px;
+    bottom: 67.27%;
+}
+
+.no p {
+    position: absolute;
+    width: 180px;
+    height: 28.44px;
+    left: 184.54px;
+    top: 60px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+
+    color: #100101;
+
+}
+
+.email img {
+    position: absolute;
+    left: 10%;
+    top: 90px;
+    bottom: 67.27%;
+}
+
+.email p {
+    position: absolute;
+    width: 180px;
+    height: 28.44px;
+    left: 184.54px;
+    top: 90px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+
+    color: #100101;
+}
+
+.alamat img {
+    position: absolute;
+    left: 10%;
+    top: 120px;
+    bottom: 67.27%;
+}
+
+.alamat p {
+    position: absolute;
+    width: 180px;
+    height: 28.44px;
+    left: 184.54px;
+    top: 120px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+
+    color: #100101;
+}
+
+.education h4 {
+    position: absolute;
+    left: 60%;
+    top: 5%;
+    bottom: 0%;
+
+    /* TITLE 2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* PRIMARY / GREEN */
+
+    color: #136223;
+}
+
+.education h5 {
+    position: absolute;
+    width: 400px;
+    height: 17px;
+    left: 60%;
+    top: 15%;
+
+    /* TITLE 3 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 0.015em;
+    color: #000000;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+
+.education p {
+    position: absolute;
+    width: 350px;
+    height: 15px;
+    left: 60%;
+    top: 25%;
+
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+
+
+.project h2 {
+    position: absolute;
+    left: 10%;
+    top: 130%;
+
+    /* TITLE 2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* PRIMARY / GREEN */
+
+    color: #136223;
+
+}
+
+.dashboard img {
+    position: absolute;
+    width: 246px;
+    height: 180px;
+    left: 10%;
+    top: 140%;
+    border-radius: 6px;
+}
+
+/* .dashboard p {
+    position: absolute;
+    width: 305px;
+    height: 44px;
+    left: 410px;
+    top: 140%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+/* Dark Color */
+
+/* color: #21243D;
+} */
+
+.dashboard h3 {
+    position: absolute;
+    width: 305px;
+    height: 44px;
+    left: 410px;
+    top: 140%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+/* .dashboard h4 {
+    position: absolute;
+    width: 42px;
+    height: 60px;
+    left: 420px;
+    top: 150%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+/* }  */
+
+.dashboard p {
+    position: absolute;
+    width: 594px;
+    height: 93px;
+    left: 410px;
+    top: 150%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    /* Dark Color */
+
+    color: #21243D;
+
+
+}
+
+
+.vibrant img {
+    position: absolute;
+    width: 246px;
+    height: 180px;
+    left: 10%;
+    top: 170%;
+    border-radius: 6px;
+}
+
+/* .dashboard p {
+    position: absolute;
+    width: 305px;
+    height: 44px;
+    left: 410px;
+    top: 140%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+/* Dark Color */
+
+/* color: #21243D;
+} */
+
+.vibrant h3 {
+    position: absolute;
+    width: 305px;
+    height: 44px;
+    left: 410px;
+    top: 170%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+/* .dashboard h4 {
+    position: absolute;
+    width: 42px;
+    height: 60px;
+    left: 420px;
+    top: 150%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+/* }  */
+
+.vibrant p {
+    position: absolute;
+    width: 594px;
+    height: 93px;
+    left: 410px;
+    top: 180%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    /* Dark Color */
+
+    color: #21243D;
+
+
+}
+
+.days img {
+    position: absolute;
+    width: 246px;
+    height: 180px;
+    left: 10%;
+    top: 200%;
+    border-radius: 6px;
+}
+
+/* .dashboard p {
+    position: absolute;
+    width: 305px;
+    height: 44px;
+    left: 410px;
+    top: 140%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+/* Dark Color */
+
+/* color: #21243D;
+} */
+
+.days h3 {
+    position: absolute;
+    width: 305px;
+    height: 44px;
+    left: 410px;
+    top: 200%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+/* .dashboard h4 {
+    position: absolute;
+    width: 42px;
+    height: 60px;
+    left: 420px;
+    top: 150%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+/* }  */
+
+.days p {
+    position: absolute;
+    width: 594px;
+    height: 93px;
+    left: 410px;
+    top: 210%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    /* Dark Color */
+
+    color: #21243D;
+
+
+}
+
+.gambar {
+    position: absolute;
+    left: 44%;
+    top: 240%;
+
+}
+
+.gambar img {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+
+footer {
+    position: absolute;
+    height: 21px;
+    left: 40.28%;
+    right: 40.45%;
+    top: 250%;
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
